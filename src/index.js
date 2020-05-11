@@ -4,7 +4,7 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 import { createStore } from 'redux';
-import allReducers from './reducers';
+import allReducers from './reducers/reducersIndex';
 import { Provider } from 'react-redux';
 
 /* eslint-disable no-underscore-dangle */
